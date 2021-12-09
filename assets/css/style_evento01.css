@@ -1,0 +1,147 @@
+body * {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oscuro {
+    width: 1919px;
+    height: 99px;
+    /*background-color: #000000;*/
+    background: #000F08 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+nav {
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: x-large;
+}
+
+.icono {
+    width: 2rem;
+}
+
+.icono svg {
+    fill: #ffffff;
+}
+
+.navBar a {
+    margin: -107px 20px 0px 0px;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline;
+    padding: 0px 0px 0px 10px;
+    top: -41px;
+    left: 40px;
+    width: 33px;
+    height: 25px;
+    list-style-type: none;
+    position: relative;
+}
+
+.navBar a:hover {
+    color: rgb(68, 205, 230);
+    opacity: 0.5;
+}
+
+.section {
+    width: 1085px;
+    height: 2200px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 418px;
+}
+
+.section h1 {
+    padding-top: 170px;
+    padding-bottom: 50px;
+    text-align: left;
+    font: normal normal bold 45px/61px Open Sans;
+    letter-spacing: 0px;
+    color: #000F08;
+    opacity: 1;
+}
+
+.section img {
+    width: 100%;
+    height: 565px;
+}
+
+.section p {
+    padding: 50px 0px 50px 0px;
+    text-align: left;
+    font: normal normal normal 25px/34px Open Sans;
+    letter-spacing: 0.5px;
+    color: #000F08;
+    opacity: 1;
+    line-height: 30px;
+}
+
+.section h2 {
+    text-align: left;
+    font: normal normal bold 40px/55px Open Sans;
+    letter-spacing: 0.5px;
+    color: #000F08;
+    opacity: 1;
+}
+
+footer {
+    width: 1920px;
+    height: 284px;
+    background: #000F08 0% 0% no-repeat padding-box;
+    position: relative;
+    margin-top: 50px;
+    left: -8px;
+    bottom: -8px;
+}
+
+footer svg {
+    fill: #ffffff;
+    height: 70px;
+    width: 70px;
+    opacity: 1;
+    align-items: center;
+    /* margin: 101px 0px 0px 27px; */
+    position: relative;
+    left: 829px;
+    /* bottom: -75px; */
+    top: 101px;
+    padding: 0px 27px 0px 0px;
+}
+
+footer p {
+    text-align: left;
+    font: normal normal normal 25px/34px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: relative;
+    left: 680px;
+    top: 145px;
+}
+
+footer p:hover {
+    color: rgb(68, 205, 230);
+    opacity: 0.5;
+}
